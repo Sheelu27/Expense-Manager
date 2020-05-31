@@ -1,4 +1,5 @@
 # masai-sprint-2
+#EXPENSE MANAGER
 Designed and implemented a sytem to keep a track of the income(savings and expenditure)
 
 It adds all the money earned from various sources,records all the expenses made,
