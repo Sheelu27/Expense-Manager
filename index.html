@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <div id= "first_half">
+            <h1 id="result">Expenser Manager</h1>
+            <div class="input_div">
+                <form>
+                
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your Good Name"><br>
+                    <label for="type_of_query">Income/Expense</label>
+                    <select name="query" id="query">
+                        <option value=""></option>
+                        <option value="Income">Income</option>
+                        <option value="Expense">Expense</option>
+                    </select>
+                    <br>
+                    <label for="desc">Description</label><br>
+                    <input type="text" id="desc" name="desc" placeholder="Enter Description"><br>
+                    <label for="amount">Amount</label><br>
+                    <input type="number" id="amount" name="amount" placeholder="Please Enter Amount">
+                    <button id="submit">SUBMIT</button>
+                    <button id="final">Final Conclusion</button>
+                </form>    
+                
+            </div>
+            <div id ="output_Income">
+                <h1>INCOME</h1>
+
+            </div>
+            <div id ="output_expense">
+                <h1>EXPENSE</h1>
+
+            </div>
+        </div>
+        <script src="script.js">
+            
+        </script>
+    </body>
+</html>

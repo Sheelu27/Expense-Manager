@@ -1,0 +1,101 @@
+#first_half{
+    width:100%;
+    height:750px;
+    border:5px solid rgb(58, 5, 5);
+    background-image: url(https://conflictdivorcedenver.com/wp-content/uploads/2017/10/income.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first_half h1{
+    text-align: center; 
+    border-radius: 4px;
+    background-color:lightgrey; 
+    color: brown; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.input_div {
+    float:left;color:white;
+    font-size:30px;
+    padding:5%;
+    width:25%;
+    height:auto;
+    
+}
+
+.input_div input{
+    width:300px;
+    height:40px;
+}
+
+.input_div select{
+    width:300px;
+    height:40px;
+}
+
+input ~ button{
+    margin-top: 10px;
+    width:300px;
+    height:40px;
+    font-size:20px;
+    
+    background-color:green;
+    color:white;
+
+}
+
+
+
+#output_Income{
+
+    float:left;
+    width:20%;
+    height:auto;
+    padding:3%;
+    margin-left:1px;
+    
+}
+
+#output_expense{
+
+    float:left;
+    width:20%;
+    height:auto;
+    padding:3%;
+    margin-left:5px;
+    
+
+}
+
+#output_Income  h1{
+    color:yellowgreen
+}
+
+
+#final_image{
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/02/WordPress-Refund-Policy-Featured-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:750px;
+    border:5px solid rgb(58, 5, 5)
+}
+
+#expense_image{
+    background-image: url(https://media3.s-nbcnews.com/j/newscms/2018_12/1956916/170406-spring-savings-mn-1435_e83671bfdc3ec57c36e1924f9c658b7f.nbcnews-fp-1200-630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:750px;
+    border:5px solid rgb(58, 5, 5)
+
+}
+
+#result{
+    font-size: 40px;
+    text-align: center;
+    background-color:lightgrey; 
+}
