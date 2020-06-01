@@ -2,7 +2,7 @@ var btn = document.getElementById('submit')
 var new_btn = document.getElementById('final')
 var total_expense = 0;
 var total_income = 0;
-
+//Declaration of total income and total expense
 function expense_manager(){
     //Program for calculation of save and expense
     event.preventDefault()
@@ -31,7 +31,7 @@ function expense_manager(){
     h2.innerHTML = "Hi"+" "+name+" "+"Your income via "+desc+" "+"is"+" "+ amount
     h22.innerHTML = "Total Income ==>" + total_income
     div1.append(h2,h22)
-     
+     //appending final result on income div
     }
 
     else if(query == "Expense"){
@@ -51,11 +51,12 @@ function expense_manager(){
     h2.innerHTML ="your expense for"+" "+desc+ "==>" +amount
     h22.innerHTML ="Total Expense" +"==>"+total_expense
     div2.append(h2,h22)
+    //appending final result on expense div
 
     }
 
     
-    
+    //To make the input values empty
     document.getElementById("desc").value= ""
     document.getElementById("amount").value= ""
     
