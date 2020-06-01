@@ -71,7 +71,7 @@ function final_sum(){
        total_income
    }
    if(Number(total_income-total_expense)>total_expense && total_income> total_income/2 ){
-       alert("GOOD JOB")
+       //alert("GOOD JOB")
        var doc = document.getElementById("first_half")
        var h1 = document.getElementById("result")
        h1.style.color = "Green"
@@ -82,7 +82,7 @@ function final_sum(){
    }
    else if(Number(total_income-total_expense)<total_expense){
        //When Expense is more or saving is too less
-       alert("TRY TO SAVE MORE")
+       //alert("TRY TO SAVE MORE")
        var doc = document.getElementById("first_half")
        doc.setAttribute('id','expense_image')
        var h1 = document.getElementById("result")
